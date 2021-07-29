@@ -6,7 +6,7 @@ import SearchView from './components/SearchView';
 import MovieView from './components/MovieView';
 import NotFound from './components/NotFound';
 import { useState, useEffect } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route, Link } from 'react-router-dom';
 
 
 function App() {
@@ -27,21 +27,24 @@ function App() {
 
 
   return (
-    <>
-      <Navbar searchText={searchText} setSearchText={setSearchText} />
-      <Switch>
-        <Route path="/" exact>
-          <HomeView />
-        </Route>
-        <Route path="/about" component={AboutView} />
-        <Route path="/search">
-          <SearchView keyword={searchText} searchResults={searchResults} />
-        </Route>
-        <Route path="/movies/:id" component={MovieView} />
-        <Route path="" component={NotFound} />
-      </Switch>
+    <HashRouter basename='/'>
+      <>
+        <Navbar searchText={searchText} setSearchText={setSearchText} />
+        <Switch>
+          <Route path="/" exact>
+            <HomeView />
+          </Route>
+          <Route path="/about" component={AboutView} />
+          <Route path="/search">
+            <SearchView keyword={searchText} searchResults={searchResults} />
+          </Route>
+          <Route path="/movies/:id" component={MovieView} />
+          <Route path="" component={NotFound} />
+        </Switch>
 
-    </>
+      </>
+    </HashRouter>
+
   );
 }
 

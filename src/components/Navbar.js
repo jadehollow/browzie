@@ -7,7 +7,7 @@ const Navbar = ({ searchText, setSearchText }) => {
     e.preventDefault()
     history.push('/search')
     setSearchText(e.target.value)
-    }
+  }
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -58,9 +58,9 @@ const Navbar = ({ searchText, setSearchText }) => {
               value={searchText}
               onChange={updateSearchText}
             />
-            <button 
-            className="btn btn-outline-success" 
-            type="submit"
+            <button
+              className="btn btn-outline-success"
+              type="submit"
             >
               Search
             </button>

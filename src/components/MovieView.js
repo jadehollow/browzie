@@ -30,7 +30,7 @@ const MovieView = () => {
             const posterPath = `https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`;
             const backdropUrl = `https://image.tmdb.org/t/p/original/${movieDetails.backdrop_path}`;
             const genericPoster =
-            `${process.env.PUBLIC_URL}/assets/NoImage.jpg`;
+                `${process.env.PUBLIC_URL}/assets/NoImage.jpg`;
 
 
             return (
