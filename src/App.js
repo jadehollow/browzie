@@ -6,7 +6,7 @@ import SearchView from './components/SearchView';
 import MovieView from './components/MovieView';
 import NotFound from './components/NotFound';
 import { useState, useEffect } from 'react';
-import { HashRouter, Switch, Route, Link } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 
 function App() {
