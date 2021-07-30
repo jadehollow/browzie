@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/browzie/static/css/main.a43b142d.chunk.css",
-    "main.js": "/browzie/static/js/main.09d6eafa.chunk.js",
-    "main.js.map": "/browzie/static/js/main.09d6eafa.chunk.js.map",
+    "main.css": "/browzie/static/css/main.a13951c9.chunk.css",
+    "main.js": "/browzie/static/js/main.006b5b75.chunk.js",
+    "main.js.map": "/browzie/static/js/main.006b5b75.chunk.js.map",
     "runtime-main.js": "/browzie/static/js/runtime-main.8e056b01.js",
     "runtime-main.js.map": "/browzie/static/js/runtime-main.8e056b01.js.map",
-    "static/js/2.e6645d81.chunk.js": "/browzie/static/js/2.e6645d81.chunk.js",
-    "static/js/2.e6645d81.chunk.js.map": "/browzie/static/js/2.e6645d81.chunk.js.map",
+    "static/js/2.2b97547a.chunk.js": "/browzie/static/js/2.2b97547a.chunk.js",
+    "static/js/2.2b97547a.chunk.js.map": "/browzie/static/js/2.2b97547a.chunk.js.map",
     "static/js/3.4074c058.chunk.js": "/browzie/static/js/3.4074c058.chunk.js",
     "static/js/3.4074c058.chunk.js.map": "/browzie/static/js/3.4074c058.chunk.js.map",
     "index.html": "/browzie/index.html",
-    "static/css/main.a43b142d.chunk.css.map": "/browzie/static/css/main.a43b142d.chunk.css.map",
-    "static/js/2.e6645d81.chunk.js.LICENSE.txt": "/browzie/static/js/2.e6645d81.chunk.js.LICENSE.txt"
+    "static/css/main.a13951c9.chunk.css.map": "/browzie/static/css/main.a13951c9.chunk.css.map",
+    "static/js/2.2b97547a.chunk.js.LICENSE.txt": "/browzie/static/js/2.2b97547a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8e056b01.js",
-    "static/js/2.e6645d81.chunk.js",
-    "static/css/main.a43b142d.chunk.css",
-    "static/js/main.09d6eafa.chunk.js"
+    "static/js/2.2b97547a.chunk.js",
+    "static/css/main.a13951c9.chunk.css",
+    "static/js/main.006b5b75.chunk.js"
   ]
 }
