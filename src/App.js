@@ -7,6 +7,7 @@ import MovieView from './components/MovieView';
 import NotFound from './components/NotFound';
 import { useState, useEffect } from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 function App() {
@@ -21,14 +22,15 @@ function App() {
         .then(data => {
           setSearchResults(data.results)
         })
-    }
+    } 
   }, [searchText])
 
 
 
   return (
-    <HashRouter basename='/'>
+    // <HashRouter basename='/'>
       <>
+        <Router basename={process.env.PUBLIC_URL}>
         <Navbar searchText={searchText} setSearchText={setSearchText} />
         <Switch>
           <Route path="/" exact>
@@ -41,9 +43,9 @@ function App() {
           <Route path="/movies/:id" component={MovieView} />
           <Route path="" component={NotFound} />
         </Switch>
-
+        </Router>
       </>
-    </HashRouter>
+    // </HashRouter>
 
   );
 }
