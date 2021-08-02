@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/browzie/static/css/main.3013c496.chunk.css",
-    "main.js": "/browzie/static/js/main.cf40ffa5.chunk.js",
-    "main.js.map": "/browzie/static/js/main.cf40ffa5.chunk.js.map",
+    "main.js": "/browzie/static/js/main.a4c431f8.chunk.js",
+    "main.js.map": "/browzie/static/js/main.a4c431f8.chunk.js.map",
     "runtime-main.js": "/browzie/static/js/runtime-main.be5dfea4.js",
     "runtime-main.js.map": "/browzie/static/js/runtime-main.be5dfea4.js.map",
     "static/js/2.f64c1b00.chunk.js": "/browzie/static/js/2.f64c1b00.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.be5dfea4.js",
     "static/js/2.f64c1b00.chunk.js",
     "static/css/main.3013c496.chunk.css",
-    "static/js/main.cf40ffa5.chunk.js"
+    "static/js/main.a4c431f8.chunk.js"
   ]
 }
